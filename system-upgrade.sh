@@ -4,13 +4,13 @@ RED=`tput setaf 1`
 GREEN=`tput setaf 2`
 NC=`tput sgr0` # No Color
 
-echo "${RED}Nadogradnja u tijeku!${NC}"
-echo "${RED}Update paketa${NC}"
+echo "${RED}Update in progress!${NC}"
+echo "${RED}Packages update${NC}"
 apt update
-echo "${RED}Upgrade paketa${NC}"
+echo "${RED}Packages upgrade${NC}"
 apt full-upgrade -y
-echo "${RED}Deinstalacija nepotrebnih paketa${NC}"
+echo "${RED}Uninstall old packages${NC}"
 apt autoremove -y
-echo "${RED}Uklanjanje deinstaliranih paketa${NC}"
+echo "${RED}Delete old pckages${NC}"
 apt autoclean
-echo "${GREEN}UPGRADE SISTEMA JE GOTOV!${NC}"
+echo "${GREEN}SYSTEM UPGRADE IS FINISHED!${NC}"
