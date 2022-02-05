@@ -6,11 +6,11 @@ NC=`tput sgr0` # No Color
 
 echo "${RED}Update in progress!${NC}"
 echo "${RED}Packages update${NC}"
-apt update
+sudo apt update
 echo "${RED}Packages upgrade${NC}"
-apt full-upgrade -y
+sudo apt full-upgrade -y
 echo "${RED}Uninstall old packages${NC}"
-apt autoremove -y
+sudo apt autoremove -y
 echo "${RED}Delete old pckages${NC}"
-apt autoclean
+sudo apt autoclean
 echo "${GREEN}SYSTEM UPGRADE IS FINISHED!${NC}"
