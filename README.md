@@ -1,7 +1,7 @@
 Linux bash scripts
 
 <h2>Description:</h2>
-* system-upgrade.sh is simple bash script for system upgrade based on raspbian, debia, ubuntu.<br />
+- system-upgrade.sh is simple bash script for system upgrade based on raspbian, debian, ubuntu.<br />
 <br />
 
 <h2>Install</h2>
