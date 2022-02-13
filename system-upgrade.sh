@@ -11,6 +11,6 @@ echo "${RED}Packages upgrade${NC}"
 sudo apt full-upgrade -y
 echo "${RED}Uninstall old packages${NC}"
 sudo apt autoremove -y
-echo "${RED}Delete old pckages${NC}"
+echo "${RED}Delete old packages${NC}"
 sudo apt autoclean
 echo "${GREEN}SYSTEM UPGRADE IS FINISHED!${NC}"

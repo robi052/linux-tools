@@ -5,4 +5,4 @@ Linux bash scripts
 <br />
 
 <h2>Install</h2>
-Download and copy to **/usr/local/bin** and **chmod +x /usr/local/bin/system-upgrade.sh**
+Download and copy to **/usr/local/bin** and chmod +x /usr/local/bin/system-upgrade.sh
